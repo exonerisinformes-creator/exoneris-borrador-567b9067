@@ -1,0 +1,404 @@
+{
+  "downloadedAt": "2026-11-08T10:34:31.761442+01:00",
+  "boundaries": {
+    "source": "INE · cartografía municipal del servicio DIRCE 2025",
+    "url": "https://www.ine.es/servergis/rest/services/Hosted/DIRCE_total_2025/FeatureServer/2",
+    "note": "Geometría municipal oficial de uso estadístico, simplificada ~15 m. No es delimitación catastral."
+  },
+  "appraisal": {
+    "name": "Tasación media · vivienda libre >5 años",
+    "unit": "€/m²",
+    "period": "2T 2026",
+    "source": "Ministerio de Vivienda y Agenda Urbana · valor tasado",
+    "url": "https://apps.fomento.gob.es/boletinonline2/sedal/35103500.XLS",
+    "sheet": "T2A2026",
+    "column": "Con más de cinco años de antigüedad",
+    "coverage": "Municipios >25.000 habitantes, solo celdas numéricas publicadas. Sin dato se muestra gris."
+  },
+  "rent": {
+    "name": "Alquiler mediano · vivienda colectiva",
+    "unit": "€/mes",
+    "period": "2024",
+    "source": "MIVAU · SERPAVI · explotación de fuentes tributarias",
+    "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+    "selection": "ELEMENTO=PRECIO, TIPO_MEDIDA=MEDIANA, TIPO_VIVIENDA=COLECTIVA, AÑO=2024; RECUENTO>=10",
+    "note": "Cuantía mensual, no €/m²; no se divide una mediana entre otra. COD_POSTAL identifica aquí el municipio y se cruza con cumun INE, no códigos postales de reparto."
+  },
+  "topologyRepairs": [
+    "03012",
+    "03005",
+    "03006",
+    "03009",
+    "03010",
+    "03013",
+    "03014",
+    "03015",
+    "03078",
+    "03043",
+    "03049",
+    "03051",
+    "03058",
+    "03063",
+    "03074",
+    "03101",
+    "03105",
+    "03128",
+    "30024",
+    "30002",
+    "30016",
+    "30021",
+    "46042",
+    "46081",
+    "46083",
+    "46098",
+    "46106",
+    "46110",
+    "46112",
+    "46124",
+    "46132",
+    "46145",
+    "46150",
+    "46147",
+    "46151",
+    "46157",
+    "46179",
+    "46203",
+    "46214",
+    "46213",
+    "46229",
+    "46243",
+    "46231",
+    "46244",
+    "46254",
+    "46258",
+    "46259"
+  ],
+  "municipalities": 452,
+  "appraisalCoverage": 51,
+  "rentCoverage": 290,
+  "unmatchedAppraisals": [
+    {
+      "province": "03",
+      "name": "Almazora/Almassora",
+      "candidates": []
+    },
+    {
+      "province": "03",
+      "name": "Benicarló",
+      "candidates": []
+    }
+  ],
+  "appraisalJoins": [
+    {
+      "code": "03009",
+      "xlsName": "Alcoy/Alcoi",
+      "value": 1130.7,
+      "row1Based": 192
+    },
+    {
+      "code": "03014",
+      "xlsName": "Alicante/Alacant",
+      "value": 2272.1,
+      "row1Based": 193
+    },
+    {
+      "code": "03031",
+      "xlsName": "Benidorm",
+      "value": 3213.0,
+      "row1Based": 194
+    },
+    {
+      "code": "03047",
+      "xlsName": "Calpe/Calp",
+      "value": 3258.1,
+      "row1Based": 195
+    },
+    {
+      "code": "03050",
+      "xlsName": "Campello, el",
+      "value": 2824.1,
+      "row1Based": 196
+    },
+    {
+      "code": "03059",
+      "xlsName": "Crevillent",
+      "value": 1043.9,
+      "row1Based": 197
+    },
+    {
+      "code": "03063",
+      "xlsName": "Dénia",
+      "value": 2988.5,
+      "row1Based": 198
+    },
+    {
+      "code": "03065",
+      "xlsName": "Elche/Elx",
+      "value": 1626.2,
+      "row1Based": 199
+    },
+    {
+      "code": "03066",
+      "xlsName": "Elda",
+      "value": 1009.9,
+      "row1Based": 200
+    },
+    {
+      "code": "03082",
+      "xlsName": "Jávea/Xábia",
+      "value": 3489.4,
+      "row1Based": 201
+    },
+    {
+      "code": "03093",
+      "xlsName": "Novelda",
+      "value": 1015.9,
+      "row1Based": 202
+    },
+    {
+      "code": "03099",
+      "xlsName": "Orihuela",
+      "value": 2015.1,
+      "row1Based": 203
+    },
+    {
+      "code": "03104",
+      "xlsName": "Petrer",
+      "value": 1112.4,
+      "row1Based": 204
+    },
+    {
+      "code": "03121",
+      "xlsName": "Santa Pola",
+      "value": 2604.1,
+      "row1Based": 205
+    },
+    {
+      "code": "03122",
+      "xlsName": "San Vicente del Raspeig",
+      "value": 1970.8,
+      "row1Based": 206
+    },
+    {
+      "code": "03133",
+      "xlsName": "Torrevieja",
+      "value": 2241.1,
+      "row1Based": 207
+    },
+    {
+      "code": "03139",
+      "xlsName": "Villajoyosa/Vila Joiosa (La)",
+      "value": 2216.1,
+      "row1Based": 208
+    },
+    {
+      "code": "03140",
+      "xlsName": "Villena",
+      "value": 994.4,
+      "row1Based": 209
+    },
+    {
+      "code": "46005",
+      "xlsName": "Alaquàs",
+      "value": 1679.8,
+      "row1Based": 218
+    },
+    {
+      "code": "46017",
+      "xlsName": "Alzira",
+      "value": 1220.1,
+      "row1Based": 219
+    },
+    {
+      "code": "46021",
+      "xlsName": "Aldaia",
+      "value": 1638.2,
+      "row1Based": 220
+    },
+    {
+      "code": "46029",
+      "xlsName": "Algemesí",
+      "value": 1069.8,
+      "row1Based": 221
+    },
+    {
+      "code": "46078",
+      "xlsName": "Burjassot",
+      "value": 1977.2,
+      "row1Based": 222
+    },
+    {
+      "code": "46094",
+      "xlsName": "Catarroja",
+      "value": 1667.0,
+      "row1Based": 223
+    },
+    {
+      "code": "46102",
+      "xlsName": "Quart de Poblet",
+      "value": 1910.4,
+      "row1Based": 224
+    },
+    {
+      "code": "46110",
+      "xlsName": "Xirivella",
+      "value": 1790.3,
+      "row1Based": 225
+    },
+    {
+      "code": "46131",
+      "xlsName": "Gandia",
+      "value": 1757.6,
+      "row1Based": 226
+    },
+    {
+      "code": "46145",
+      "xlsName": "Xàtiva",
+      "value": 1203.0,
+      "row1Based": 227
+    },
+    {
+      "code": "46159",
+      "xlsName": "Manises",
+      "value": 1866.3,
+      "row1Based": 228
+    },
+    {
+      "code": "46169",
+      "xlsName": "Mislata",
+      "value": 2290.9,
+      "row1Based": 229
+    },
+    {
+      "code": "46181",
+      "xlsName": "Oliva",
+      "value": 1478.9,
+      "row1Based": 230
+    },
+    {
+      "code": "46184",
+      "xlsName": "Ontinyent",
+      "value": 1138.1,
+      "row1Based": 231
+    },
+    {
+      "code": "46190",
+      "xlsName": "Paterna",
+      "value": 2292.9,
+      "row1Based": 232
+    },
+    {
+      "code": "46220",
+      "xlsName": "Sagunto/Sagunt",
+      "value": 1612.3,
+      "row1Based": 233
+    },
+    {
+      "code": "46235",
+      "xlsName": "Sueca",
+      "value": 1462.0,
+      "row1Based": 234
+    },
+    {
+      "code": "46244",
+      "xlsName": "Torrent",
+      "value": 1894.5,
+      "row1Based": 235
+    },
+    {
+      "code": "46250",
+      "xlsName": "Valencia",
+      "value": 2957.4,
+      "row1Based": 236
+    },
+    {
+      "code": "30003",
+      "xlsName": "Águilas",
+      "value": 1448.0,
+      "row1Based": 290
+    },
+    {
+      "code": "30005",
+      "xlsName": "Alcantarilla",
+      "value": 1067.6,
+      "row1Based": 291
+    },
+    {
+      "code": "30015",
+      "xlsName": "Caravaca de la Cruz",
+      "value": 900.4,
+      "row1Based": 292
+    },
+    {
+      "code": "30016",
+      "xlsName": "Cartagena",
+      "value": 1479.4,
+      "row1Based": 293
+    },
+    {
+      "code": "30019",
+      "xlsName": "Cieza",
+      "value": 952.2,
+      "row1Based": 294
+    },
+    {
+      "code": "30022",
+      "xlsName": "Jumilla",
+      "value": 826.4,
+      "row1Based": 295
+    },
+    {
+      "code": "30024",
+      "xlsName": "Lorca",
+      "value": 1165.8,
+      "row1Based": 296
+    },
+    {
+      "code": "30026",
+      "xlsName": "Mazarrón",
+      "value": 1580.9,
+      "row1Based": 297
+    },
+    {
+      "code": "30027",
+      "xlsName": "Molina de Segura",
+      "value": 1316.8,
+      "row1Based": 298
+    },
+    {
+      "code": "30030",
+      "xlsName": "Murcia",
+      "value": 1560.8,
+      "row1Based": 299
+    },
+    {
+      "code": "30035",
+      "xlsName": "San Javier",
+      "value": 1941.2,
+      "row1Based": 300
+    },
+    {
+      "code": "30037",
+      "xlsName": "Torre-Pacheco",
+      "value": 1369.5,
+      "row1Based": 301
+    },
+    {
+      "code": "30039",
+      "xlsName": "Totana",
+      "value": 964.2,
+      "row1Based": 302
+    },
+    {
+      "code": "30043",
+      "xlsName": "Yecla",
+      "value": 880.8,
+      "row1Based": 303
+    }
+  ],
+  "sourceHashes": {
+    "municipalities.geojson": "217b99ce5af3600b486a0a185ebaff45130c7478296dc21880d29cc86ebe6f1b",
+    "serpavi.csv": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61",
+    "tasaciones.xls": "e85101b09adf46a382b5a92a7f62f0ef636432c45fc8e4cee700313c5269ad26"
+  }
+}

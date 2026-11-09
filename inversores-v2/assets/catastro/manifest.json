@@ -1,0 +1,1234 @@
+[
+  {
+    "assetId": 1,
+    "downloadedAt": "2026-11-08T09:10:23.772041+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.6365%2C-0.8729%2C38.6395%2C-0.8691%2CEPSG%3A4326",
+        "http": "200",
+        "file": "1-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.6365%2C-0.8729%2C38.6395%2C-0.8691%2CEPSG%3A4326",
+        "http": "200",
+        "file": "1-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "5490303XH8759S",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.87062072763158,
+      38.638255
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 310,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.8706295,
+          38.638254
+        ],
+        "labelAnchor": [
+          -0.87062072763158,
+          38.638255
+        ],
+        "bounds": [
+          [
+            -0.870998,
+            38.638072
+          ],
+          [
+            -0.870261,
+            38.638436
+          ]
+        ],
+        "bearing": -0.45
+      },
+      "1": {
+        "center": [
+          -0.8706295,
+          38.638254
+        ],
+        "labelAnchor": [
+          -0.87062072763158,
+          38.638255
+        ],
+        "bounds": [
+          [
+            -0.870998,
+            38.638072
+          ],
+          [
+            -0.870261,
+            38.638436
+          ]
+        ],
+        "bearing": -0.45
+      },
+      "2": {
+        "center": [
+          -0.8706295,
+          38.638254
+        ],
+        "labelAnchor": [
+          -0.87062072763158,
+          38.638255
+        ],
+        "bounds": [
+          [
+            -0.870998,
+            38.638072
+          ],
+          [
+            -0.870261,
+            38.638436
+          ]
+        ],
+        "bearing": -0.45
+      },
+      "3": {
+        "center": [
+          -0.8706295,
+          38.638254
+        ],
+        "labelAnchor": [
+          -0.87062072763158,
+          38.638255
+        ],
+        "bounds": [
+          [
+            -0.870998,
+            38.638072
+          ],
+          [
+            -0.870261,
+            38.638436
+          ]
+        ],
+        "bearing": -0.45
+      },
+      "4": {
+        "center": [
+          -0.8706295,
+          38.638254
+        ],
+        "labelAnchor": [
+          -0.87062072763158,
+          38.638255
+        ],
+        "bounds": [
+          [
+            -0.870998,
+            38.638072
+          ],
+          [
+            -0.870261,
+            38.638436
+          ]
+        ],
+        "bearing": -0.45
+      }
+    }
+  },
+  {
+    "assetId": 2,
+    "downloadedAt": "2026-11-08T09:10:13.738391+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.6425%2C-0.8659%2C38.6455%2C-0.8621%2CEPSG%3A4326",
+        "http": "200",
+        "file": "2-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.6425%2C-0.8659%2C38.6455%2C-0.8621%2CEPSG%3A4326",
+        "http": "200",
+        "file": "2-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "03140A05700282",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.8628939687499999,
+      38.6436085
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 94,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.8628165,
+          38.643582
+        ],
+        "labelAnchor": [
+          -0.8628939687499999,
+          38.6436085
+        ],
+        "bounds": [
+          [
+            -0.862946,
+            38.643523
+          ],
+          [
+            -0.862687,
+            38.643641
+          ]
+        ],
+        "bearing": 45.09
+      }
+    }
+  },
+  {
+    "assetId": 3,
+    "downloadedAt": "2026-11-08T09:10:40.155486+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.6315%2C-0.8599%2C38.6345%2C-0.8561%2CEPSG%3A4326",
+        "http": "200",
+        "file": "3-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.6315%2C-0.8599%2C38.6345%2C-0.8561%2CEPSG%3A4326",
+        "http": "200",
+        "file": "3-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "6585001XH8768S",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.8585585543478231,
+      38.633483
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 313,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.8585585,
+          38.6334925
+        ],
+        "labelAnchor": [
+          -0.8585585543478231,
+          38.633483
+        ],
+        "bounds": [
+          [
+            -0.858597,
+            38.63345
+          ],
+          [
+            -0.85852,
+            38.633535
+          ]
+        ],
+        "bearing": 84.0
+      }
+    }
+  },
+  {
+    "assetId": 4,
+    "downloadedAt": "2026-11-08T09:10:58.826776+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.4735%2C-0.7949%2C38.4765%2C-0.7911%2CEPSG%3A4326",
+        "http": "200",
+        "file": "4-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.4735%2C-0.7949%2C38.4765%2C-0.7911%2CEPSG%3A4326",
+        "http": "200",
+        "file": "4-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "2610201XH9621S",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.7928939817994517,
+      38.474973500000004
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 938,
+    "invalidGeometryExcluded": [
+      "ES.SDGC.BU.2810506XH9621S_part19"
+    ],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.792967,
+          38.4751165
+        ],
+        "labelAnchor": [
+          -0.7931816617753065,
+          38.475338
+        ],
+        "bounds": [
+          [
+            -0.793579,
+            38.474708
+          ],
+          [
+            -0.792355,
+            38.475525
+          ]
+        ],
+        "bearing": -171.15
+      },
+      "1": {
+        "center": [
+          -0.793018,
+          38.4751275
+        ],
+        "labelAnchor": [
+          -0.7931816617753065,
+          38.475338
+        ],
+        "bounds": [
+          [
+            -0.793579,
+            38.47473
+          ],
+          [
+            -0.792457,
+            38.475525
+          ]
+        ],
+        "bearing": -171.15
+      },
+      "2": {
+        "center": [
+          -0.792852,
+          38.4748535
+        ],
+        "labelAnchor": [
+          -0.7929073757225332,
+          38.47485
+        ],
+        "bounds": [
+          [
+            -0.793247,
+            38.47473
+          ],
+          [
+            -0.792457,
+            38.474977
+          ]
+        ],
+        "bearing": -171.15
+      },
+      "3": {
+        "center": [
+          -0.792852,
+          38.4748535
+        ],
+        "labelAnchor": [
+          -0.7929073757225332,
+          38.47485
+        ],
+        "bounds": [
+          [
+            -0.793247,
+            38.47473
+          ],
+          [
+            -0.792457,
+            38.474977
+          ]
+        ],
+        "bearing": -171.15
+      }
+    }
+  },
+  {
+    "assetId": 5,
+    "downloadedAt": "2026-11-08T09:11:47.494895+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.4785%2C-0.7889%2C38.4815%2C-0.7851%2CEPSG%3A4326",
+        "http": "200",
+        "file": "5-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.4785%2C-0.7889%2C38.4815%2C-0.7851%2CEPSG%3A4326",
+        "http": "200",
+        "file": "5-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "3116202XH9631N",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.7870525000000013,
+      38.480017000000004
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 1376,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.787061,
+          38.480033500000005
+        ],
+        "labelAnchor": [
+          -0.7870525000000013,
+          38.480017000000004
+        ],
+        "bounds": [
+          [
+            -0.787138,
+            38.479964
+          ],
+          [
+            -0.786984,
+            38.480103
+          ]
+        ],
+        "bearing": -86.16
+      },
+      "1": {
+        "center": [
+          -0.787061,
+          38.480033500000005
+        ],
+        "labelAnchor": [
+          -0.7870525000000013,
+          38.480017000000004
+        ],
+        "bounds": [
+          [
+            -0.787138,
+            38.479964
+          ],
+          [
+            -0.786984,
+            38.480103
+          ]
+        ],
+        "bearing": -86.16
+      }
+    }
+  },
+  {
+    "assetId": 6,
+    "downloadedAt": "2026-11-08T09:10:50.584352+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.2675%2C-0.6999%2C38.2705%2C-0.6960999999999999%2CEPSG%3A4326",
+        "http": "200",
+        "file": "6-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.2675%2C-0.6999%2C38.2705%2C-0.6960999999999999%2CEPSG%3A4326",
+        "http": "200",
+        "file": "6-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "1585002YH0318C",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.6982229327153111,
+      38.2692885
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 272,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.6984005,
+          38.268939
+        ],
+        "labelAnchor": [
+          -0.6983209427244581,
+          38.269287
+        ],
+        "bounds": [
+          [
+            -0.698616,
+            38.268539
+          ],
+          [
+            -0.698185,
+            38.269339
+          ]
+        ],
+        "bearing": -50.78
+      },
+      "1": {
+        "center": [
+          -0.6982839999999999,
+          38.2692805
+        ],
+        "labelAnchor": [
+          -0.6983209427244581,
+          38.269287
+        ],
+        "bounds": [
+          [
+            -0.698383,
+            38.269222
+          ],
+          [
+            -0.698185,
+            38.269339
+          ]
+        ],
+        "bearing": -156.02
+      }
+    }
+  },
+  {
+    "assetId": 7,
+    "downloadedAt": "2026-11-08T09:11:45.839562+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.2605%2C-0.7089%2C38.2635%2C-0.7051%2CEPSG%3A4326",
+        "http": "200",
+        "file": "7-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.2605%2C-0.7089%2C38.2635%2C-0.7051%2CEPSG%3A4326",
+        "http": "200",
+        "file": "7-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "0775103YH0307F",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.707158877464789,
+      38.26188
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 1519,
+    "invalidGeometryExcluded": [
+      "ES.SDGC.BU.0977121YH0307F_part5"
+    ],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.7070815,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707207,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": 28.31
+      },
+      "1": {
+        "center": [
+          -0.7070805,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707205,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": 28.31
+      },
+      "2": {
+        "center": [
+          -0.70708,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707204,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": -151.69
+      },
+      "3": {
+        "center": [
+          -0.70708,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707204,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": -151.69
+      },
+      "4": {
+        "center": [
+          -0.70708,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707204,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": -151.69
+      },
+      "5": {
+        "center": [
+          -0.70708,
+          38.261880500000004
+        ],
+        "labelAnchor": [
+          -0.707158877464789,
+          38.26188
+        ],
+        "bounds": [
+          [
+            -0.707204,
+            38.26182
+          ],
+          [
+            -0.706956,
+            38.261941
+          ]
+        ],
+        "bearing": -151.69
+      },
+      "6": {
+        "center": [
+          -0.7070385,
+          38.261856
+        ],
+        "labelAnchor": [
+          -0.7069945187747038,
+          38.2618325
+        ],
+        "bounds": [
+          [
+            -0.707115,
+            38.26182
+          ],
+          [
+            -0.706962,
+            38.261892
+          ]
+        ],
+        "bearing": 53.41
+      }
+    }
+  },
+  {
+    "assetId": 8,
+    "downloadedAt": "2026-11-08T09:11:02.827123+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.3535%2C-0.4959%2C38.3565%2C-0.4921%2CEPSG%3A4326",
+        "http": "200",
+        "file": "8-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.3535%2C-0.4959%2C38.3565%2C-0.4921%2CEPSG%3A4326",
+        "http": "200",
+        "file": "8-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "9184201YH1498C",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.4938052320388558,
+      38.354780500000004
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 275,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.4933175,
+          38.3554925
+        ],
+        "labelAnchor": [
+          -0.4930857551490525,
+          38.356050499999995
+        ],
+        "bounds": [
+          [
+            -0.494254,
+            38.35446
+          ],
+          [
+            -0.492381,
+            38.356525
+          ]
+        ],
+        "bearing": -40.59
+      },
+      "1": {
+        "center": [
+          -0.49381149999999996,
+          38.355338
+        ],
+        "labelAnchor": [
+          -0.493811499999999,
+          38.355338
+        ],
+        "bounds": [
+          [
+            -0.494135,
+            38.355208
+          ],
+          [
+            -0.493488,
+            38.355468
+          ]
+        ],
+        "bearing": -142.96
+      }
+    }
+  },
+  {
+    "assetId": 9,
+    "downloadedAt": "2026-11-08T09:11:17.830037+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.3635%2C-0.4859%2C38.3665%2C-0.4821%2CEPSG%3A4326",
+        "http": "200",
+        "file": "9-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.3635%2C-0.4859%2C38.3665%2C-0.4821%2CEPSG%3A4326",
+        "http": "200",
+        "file": "9-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "9994601YH1499D",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.4841605119047627,
+      38.364755
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 717,
+    "invalidGeometryExcluded": [
+      "ES.SDGC.BU.9994603YH1499D_part25"
+    ],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "1": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "2": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "3": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "4": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "5": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "6": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "7": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "8": {
+        "center": [
+          -0.4840935,
+          38.36471349999999
+        ],
+        "labelAnchor": [
+          -0.4841605119047627,
+          38.364755
+        ],
+        "bounds": [
+          [
+            -0.484227,
+            38.364546
+          ],
+          [
+            -0.48396,
+            38.364881
+          ]
+        ],
+        "bearing": 99.7
+      },
+      "9": {
+        "center": [
+          -0.484072,
+          38.364692500000004
+        ],
+        "labelAnchor": [
+          -0.4840485454425012,
+          38.3647255
+        ],
+        "bounds": [
+          [
+            -0.484128,
+            38.364573
+          ],
+          [
+            -0.484016,
+            38.364812
+          ]
+        ],
+        "bearing": -68.58
+      },
+      "10": {
+        "center": [
+          -0.484088,
+          38.364650999999995
+        ],
+        "labelAnchor": [
+          -0.48408557812500763,
+          38.364651499999994
+        ],
+        "bounds": [
+          [
+            -0.484117,
+            38.36463
+          ],
+          [
+            -0.484059,
+            38.364672
+          ]
+        ],
+        "bearing": 17.08
+      }
+    }
+  },
+  {
+    "assetId": 10,
+    "downloadedAt": "2026-11-08T09:11:28.644777+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.4305%2C-0.39490000000000003%2C38.4335%2C-0.3911%2CEPSG%3A4326",
+        "http": "200",
+        "file": "10-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.4305%2C-0.39490000000000003%2C38.4335%2C-0.3911%2CEPSG%3A4326",
+        "http": "200",
+        "file": "10-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "7771005YH2577S",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.3930515699088093,
+      38.431498500000004
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 224,
+    "invalidGeometryExcluded": [
+      "ES.SDGC.BU.7570004YH2576N_part19"
+    ],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.393028,
+          38.431134
+        ],
+        "labelAnchor": [
+          -0.39270523884372627,
+          38.430901500000004
+        ],
+        "bounds": [
+          [
+            -0.393725,
+            38.430567
+          ],
+          [
+            -0.392331,
+            38.431701
+          ]
+        ],
+        "bearing": 72.76
+      },
+      "1": {
+        "center": [
+          -0.392767,
+          38.4308625
+        ],
+        "labelAnchor": [
+          -0.39270523884372627,
+          38.430901500000004
+        ],
+        "bounds": [
+          [
+            -0.393203,
+            38.43061
+          ],
+          [
+            -0.392331,
+            38.431115
+          ]
+        ],
+        "bearing": 167.1
+      },
+      "2": {
+        "center": [
+          -0.392659,
+          38.430918
+        ],
+        "labelAnchor": [
+          -0.39270523884372627,
+          38.430901500000004
+        ],
+        "bounds": [
+          [
+            -0.392987,
+            38.430721
+          ],
+          [
+            -0.392331,
+            38.431115
+          ]
+        ],
+        "bearing": -17.87
+      }
+    }
+  },
+  {
+    "assetId": 11,
+    "downloadedAt": "2026-11-08T09:11:50.141119+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.4795%2C-0.7689%2C38.4825%2C-0.7651%2CEPSG%3A4326",
+        "http": "200",
+        "file": "11-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.4795%2C-0.7689%2C38.4825%2C-0.7651%2CEPSG%3A4326",
+        "http": "200",
+        "file": "11-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "4918806XH9641N",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.7668657531914913,
+      38.481375
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 278,
+    "invalidGeometryExcluded": [
+      "ES.SDGC.BU.4919101XH9641N_part1",
+      "ES.SDGC.BU.4919102XH9641N_part2"
+    ],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.7668645,
+          38.481382499999995
+        ],
+        "labelAnchor": [
+          -0.7668657531914913,
+          38.481375
+        ],
+        "bounds": [
+          [
+            -0.767017,
+            38.481262
+          ],
+          [
+            -0.766712,
+            38.481503
+          ]
+        ],
+        "bearing": 147.06
+      },
+      "1": {
+        "center": [
+          -0.7668645,
+          38.481382499999995
+        ],
+        "labelAnchor": [
+          -0.7668657531914913,
+          38.481375
+        ],
+        "bounds": [
+          [
+            -0.767017,
+            38.481262
+          ],
+          [
+            -0.766712,
+            38.481503
+          ]
+        ],
+        "bearing": 147.06
+      }
+    }
+  },
+  {
+    "assetId": 12,
+    "downloadedAt": "2026-11-08T09:12:00.856002+01:00",
+    "source": "D. G. del Catastro · INSPIRE WFS BU",
+    "sources": [
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuilding&srsName=EPSG%3A4326&bbox=38.5295%2C-0.8209%2C38.5325%2C-0.8170999999999999%2CEPSG%3A4326",
+        "http": "200",
+        "file": "12-Building.gml"
+      },
+      {
+        "url": "https://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx?service=WFS&version=2.0.0&request=GetFeature&typenames=bu%3ABuildingPart&srsName=EPSG%3A4326&bbox=38.5295%2C-0.8209%2C38.5325%2C-0.8170999999999999%2CEPSG%3A4326",
+        "http": "200",
+        "file": "12-BuildingPart.gml"
+      }
+    ],
+    "errors": [],
+    "targetRef": "000102900XH96E",
+    "targetAssociation": "Edificio de demostración próximo al punto aproximado. No vinculado a una operación real.",
+    "center": [
+      -0.8188671024684271,
+      38.5307245
+    ],
+    "floorHeightMetres": 3,
+    "heightWarning": "Plantas sobre rasante del WFS; altura convencional de 3 m/planta, no altura medida. Sin croquis ni puerta.",
+    "features": 124,
+    "invalidGeometryExcluded": [],
+    "focusByFloor": {
+      "0": {
+        "center": [
+          -0.818867,
+          38.5307405
+        ],
+        "labelAnchor": [
+          -0.8188671024684271,
+          38.5307245
+        ],
+        "bounds": [
+          [
+            -0.819105,
+            38.530633
+          ],
+          [
+            -0.818629,
+            38.530848
+          ]
+        ],
+        "bearing": -162.23
+      }
+    }
+  }
+]

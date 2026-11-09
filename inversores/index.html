@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exoneris Consulting · Zona de inversores (MAQUETA)</title>
+<style>
+:root{--navy:#0f1b2d;--navy2:#172a45;--gold:#c9a45c;--gold2:#e7c987;--bg:#f5f3ee;--card:#fff;--txt:#1d2330;--mut:#5f6b7d;--line:#e3dfd5;
+--sub:#d64545;--reo:#2f6fd6;--npl:#2e9e6a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",Inter,-apple-system,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);font-size:15px;line-height:1.5}
+a{color:inherit}
+.aviso{background:#3a2f12;color:#ffd166;text-align:center;font-size:13px;padding:7px 12px;letter-spacing:.02em}
+.aviso b{color:#fff}
+header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:20;border-bottom:3px solid var(--gold)}
+.hwrap{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:24px;padding:12px 24px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px}
+.logo .lg{width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,var(--gold),#8a6a2f);display:grid;place-items:center;color:var(--navy);font-weight:900}
+.logo small{display:block;font-weight:400;font-size:11.5px;color:#aab6c8}
+nav{display:flex;gap:4px;margin-left:auto}
+nav a{text-decoration:none;color:#cfd8e6;padding:8px 12px;border-radius:8px;font-size:14px}
+nav a:hover,nav a.on{background:var(--navy2);color:var(--gold2)}
+.btn{display:inline-block;border:1px solid var(--line);background:#fff;color:var(--txt);border-radius:10px;padding:9px 16px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.gold:hover{background:var(--gold2)}
+.btn.navy{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.sm{padding:6px 11px;font-size:12.5px}
+.btn.ghost{background:transparent;color:#fff;border-color:#3a4e6e}
+.demo{display:inline-block;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#9a6b00;border:1px dashed #d8a640;background:#fff8e6;padding:2px 8px;border-radius:6px;font-weight:700;vertical-align:middle}
+section{max-width:1280px;margin:0 auto;padding:44px 24px;scroll-margin-top:70px}
+h2{font-size:30px;color:var(--navy);margin-bottom:6px;letter-spacing:-.01em}
+h2 + .lead{color:var(--mut);font-size:16px;margin-bottom:24px;max-width:820px}
+/* HERO */
+.hero{background:radial-gradient(1200px 400px at 80% 0%,#23406a 0%,var(--navy) 60%);color:#fff}
+.hero section{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center;padding:56px 24px 60px}
+.hero h1{font-size:46px;line-height:1.1;letter-spacing:-.02em;margin-bottom:16px}
+.hero h1 span{color:var(--gold2)}
+.hero p{color:#cdd6e4;font-size:17px;max-width:620px;margin-bottom:22px}
+.hero .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.hero .pruebas{display:flex;gap:26px;margin-top:28px;flex-wrap:wrap}
+.hero .pruebas div b{display:block;font-size:22px;color:var(--gold2)}
+.hero .pruebas div{font-size:13px;color:#aab6c8}
+.acceso{background:#fff;color:var(--txt);border-radius:16px;padding:22px;box-shadow:0 20px 60px #0007}
+.acceso h3{font-size:18px;color:var(--navy);margin-bottom:4px}
+.acceso p{font-size:13.5px;color:var(--mut);margin-bottom:14px}
+.acceso label{display:block;font-size:12px;color:var(--mut);margin:8px 0 3px;font-weight:600}
+.acceso input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:14px;background:#faf9f6}
+.acceso .row{display:flex;gap:8px;margin-top:14px}
+.acceso .row .btn{flex:1;text-align:center}
+.acceso .nota{font-size:11.5px;color:var(--mut);margin-top:10px}
+/* SERVICIOS */
+.servicios{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.estrategia{display:flex;gap:14px;align-items:flex-start;background:#fbf7ec;border:1px solid #ecdcb4;border-radius:14px;padding:14px 18px;margin-bottom:22px;font-size:14.5px}
+.estrategia b{color:var(--navy)}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.srv{border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;background:#fff;position:relative}
+.srv.dest{border:2px solid var(--gold);box-shadow:0 10px 30px #c9a45c33}
+.srv .tag{position:absolute;top:-11px;left:16px;background:var(--gold);color:var(--navy);font-size:11px;font-weight:800;padding:3px 9px;border-radius:20px;letter-spacing:.04em;text-transform:uppercase}
+.srv .ico{font-size:26px}
+.srv h3{font-size:17px;color:var(--navy);margin:6px 0 4px}
+.srv .pr{font-size:30px;font-weight:800;color:var(--navy);margin:6px 0 0}
+.srv .pr small{font-size:13px;font-weight:600;color:var(--mut)}
+.srv .iva{font-size:12px;color:var(--mut);margin-bottom:8px}
+.srv ul{list-style:none;font-size:13.5px;color:#3b4555;flex:1;margin-bottom:12px}
+.srv li{padding:3px 0 3px 20px;position:relative}
+.srv li:before{content:"✓";position:absolute;left:0;color:var(--npl);font-weight:800}
+.srv .req{font-size:12.5px;background:#fff1f1;border:1px solid #f3c4c4;color:#8a2323;border-radius:9px;padding:8px 10px;margin-bottom:12px}
+.srv .btn{text-align:center}
+.sgrid2{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
+.srv.mini{flex-direction:row;gap:14px;align-items:center}
+.srv.mini .txt{flex:1}
+.srv.mini h3{margin:0}
+.srv.mini p{font-size:13px;color:var(--mut)}
+.srv.mini .pr{font-size:20px;margin:0}
+.legal{font-size:12.5px;color:var(--mut);margin-top:16px}
+/* MAPA */
+.mapa-wrap{display:grid;grid-template-columns:260px 1fr 380px;gap:14px;height:680px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;overflow:auto}
+.panel h4{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:12px 0 6px}
+.panel h4:first-child{margin-top:0}
+.chk{display:flex;align-items:center;gap:8px;font-size:14px;padding:4px 0;cursor:pointer}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.panel select,.panel input[type=range]{width:100%}
+.panel select{padding:7px 9px;border:1px solid var(--line);border-radius:8px;font-size:13.5px;background:#faf9f6}
+.niveles{display:flex;flex-direction:column;gap:6px}
+.niveles button{text-align:left;border:1px solid var(--line);background:#faf9f6;border-radius:10px;padding:8px 10px;font-size:13px;cursor:pointer}
+.niveles button b{display:block;font-size:13.5px;color:var(--navy)}
+.niveles button.on{border-color:var(--gold);background:#fbf3df}
+.mapa{position:relative;background:#0f1b2d;border-radius:16px;overflow:hidden;border:1px solid #1d3050}
+.mapa svg{width:100%;height:100%;display:block}
+.mapa .capas{position:absolute;top:12px;left:12px;display:flex;gap:6px;z-index:2}
+.mapa .capas button{background:#0f1b2dcc;color:#cfd8e6;border:1px solid #3a4e6e;border-radius:8px;padding:6px 10px;font-size:12.5px;cursor:pointer}
+.mapa .capas button.on{background:var(--gold);color:var(--navy);border-color:var(--gold);font-weight:700}
+.mapa .ley{position:absolute;bottom:12px;left:12px;background:#0f1b2dee;color:#dfe6f1;border:1px solid #3a4e6e;border-radius:10px;padding:9px 12px;font-size:12.5px;z-index:2}
+.mapa .ley div{display:flex;align-items:center;gap:7px;padding:2px 0}
+.mapa .ley small{display:block;color:#93a1b8;margin-top:4px;max-width:250px}
+.mapa .demo{position:absolute;top:12px;right:12px;z-index:2}
+.zona{cursor:pointer;transition:opacity .15s}
+.zona:hover{opacity:1 !important}
+.zona.sel circle.c{stroke:#fff;stroke-width:3}
+.lista{display:flex;flex-direction:column;gap:8px}
+.it{border:1px solid var(--line);border-left:5px solid;border-radius:10px;padding:9px 11px;cursor:pointer;background:#fff}
+.it:hover,.it.sel{background:#fbf7ec}
+.it .t1{display:flex;justify-content:space-between;font-weight:700;font-size:14px;color:var(--navy)}
+.it .t2{font-size:12.5px;color:var(--mut)}
+.score{font-size:12px;font-weight:800;padding:1px 7px;border-radius:12px;background:#eef6f1;color:#1f6e4a}
+/* FICHA */
+.ficha{background:#fff;border:1px solid var(--line);border-radius:16px;padding:0;overflow:auto}
+.fhead{padding:16px 18px;color:#fff}
+.fhead .tp{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;opacity:.9}
+.fhead h3{font-size:20px;margin:2px 0}
+.fhead .z{font-size:13px;opacity:.9}
+.fhead .nums{display:flex;gap:18px;margin-top:10px}
+.fhead .nums b{display:block;font-size:20px}
+.fhead .nums span{font-size:11.5px;opacity:.85}
+.fbody{padding:14px 18px}
+.blk{border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:13.5px}
+.blk h5{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.blk ul{padding-left:18px}
+.blk.fav{background:#eef8f2;border:1px solid #cfe9db}.blk.fav h5{color:#1f6e4a}
+.blk.pre{background:#fff3ed;border:1px solid #f6d3c0}.blk.pre h5{color:#a2431b}
+.blk.fal{background:#f2f5fb;border:1px solid #d6dff0}.blk.fal h5{color:#2a4f8f}
+.dat{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:13px;margin:8px 0 12px}
+.dat div{border-bottom:1px dashed var(--line);padding:3px 0;display:flex;justify-content:space-between;gap:8px}
+.dat span{color:var(--mut)}
+.dat b{text-align:right}
+.lock{background:#f6f4ef;border:1px dashed #c9bfa8;border-radius:12px;padding:14px;text-align:center;font-size:13.5px;color:#5f5440;margin:10px 0}
+.lock b{display:block;color:var(--navy);font-size:15px;margin-bottom:4px}
+.fctas{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.fctas .btn{text-align:center}
+.rgpd{font-size:11.5px;color:var(--mut);margin-top:10px;line-height:1.4}
+/* PASOS */
+.pasos{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.paso{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+.paso b{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--navy);color:var(--gold2);font-size:14px;margin-bottom:6px}
+.paso h4{font-size:15px;color:var(--navy)}
+.paso p{font-size:13px;color:var(--mut)}
+/* NIVELES TABLA */
+.tniv{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--line);font-size:14px}
+.tniv th,.tniv td{padding:11px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tniv th{background:var(--navy);color:#fff;font-weight:600}
+.tniv td:first-child{font-weight:600;color:var(--navy);width:28%}
+.si{color:#1f6e4a;font-weight:700}.no{color:#a2431b;font-weight:700}
+/* AREA */
+.area{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.acard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.acard h4{color:var(--navy);margin-bottom:8px}
+.acard li{list-style:none;font-size:13.5px;padding:6px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:8px}
+.est{font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:12px}
+.est.a{background:#eef8f2;color:#1f6e4a}.est.b{background:#fff3e0;color:#9a5b00}.est.c{background:#eef2fb;color:#2a4f8f}
+/* QUIENES + CONTACTO */
+.quien{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+.qbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+.qbox h3{color:var(--navy);font-size:20px;margin-bottom:8px}
+.qbox p{color:#3b4555;margin-bottom:10px;font-size:14.5px}
+.contacto{background:var(--navy);color:#fff;border-radius:16px;padding:22px}
+.contacto h3{font-size:20px;margin-bottom:10px;color:var(--gold2)}
+.contacto .linea{display:flex;gap:10px;align-items:center;font-size:17px;padding:8px 0;border-bottom:1px solid #263b5c}
+.contacto .linea b{color:#fff}
+.contacto p{color:#cdd6e4;font-size:13.5px;margin-top:10px}
+footer{background:#0b1422;color:#93a1b8;font-size:12.5px}
+footer section{padding:26px 24px;display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}
+footer a{color:#cfd8e6;text-decoration:none;margin-right:12px}
+.exito{display:inline-block;width:fit-content;align-self:flex-start;background:#1f8a4c;color:#fff;font-weight:800;letter-spacing:.06em;font-size:16px;padding:5px 10px;border-radius:6px;margin:4px 0 8px}.exito-sub{font-size:13px;color:#1f8a4c;font-weight:600;margin:-2px 0 6px}.req2{font-size:12px;color:#7a7f87;margin:10px 0 12px;line-height:1.4}</style>
+</head>
+<body>
+<div class="aviso"><b>MAQUETA · BORRADOR</b> pendiente del OK de Javier. No está publicada. Los activos, cifras y fichas son <b>DATOS DE EJEMPLO</b> inventados. Revisión pendiente: Abogado y Protección de datos.</div>
+
+<header><div class="hwrap">
+ <div class="logo"><div class="lg">E</div><div>Exoneris Consulting<small>Zona de inversores · Villena (Alicante)</small></div></div>
+ <nav><a href="#servicios" class="on">Servicios</a><a href="#mapa">Activos analizados</a><a href="#como">Cómo trabajamos</a><a href="#niveles">Acceso</a><a href="#area">Mi área</a><a href="#contacto">Contacto</a></nav>
+ <a class="btn gold sm" href="#acceso">Solicitar acceso</a>
+</div></header>
+
+<div class="hero"><section>
+ <div>
+  <h1>No vendemos oportunidades.<br><span>Las analizamos.</span></h1>
+  <p>Antes de comprar una subasta, un REO o un crédito NPL, vamos al inmueble, revisamos el expediente con nuestro equipo jurídico y te decimos qué está a favor, qué preocupa y qué falta por comprobar. Tú decides con datos.</p>
+  <div class="ctas"><a class="btn gold" href="#servicios">Ver servicios y precios</a><a class="btn ghost" href="#mapa">Ver activos analizados</a></div>
+  <div class="pruebas"><div><b>Subastas · REO · NPL</b>los tres tipos, una sola ficha</div><div><b>Visita presencial</b>antes de cada decisión</div><div><b>Sin datos personales</b>en ninguna vista pública</div></div>
+ </div>
+ <div class="acceso" id="acceso">
+  <h3>Acceso privado para inversores</h3>
+  <p>El mapa público muestra solo zonas aproximadas. Para ver fichas completas, regístrate y Exoneris valida tu perfil.</p>
+  <label>Correo electrónico</label><input placeholder="tu@empresa.es" disabled>
+  <label>Contraseña</label><input type="password" placeholder="••••••••" disabled>
+  <div class="row"><button class="btn navy" disabled>Entrar</button><button class="btn gold" disabled>Solicitar acceso</button></div>
+  <div class="nota">Maqueta: el formulario no envía nada. Al registrarte aceptarás la política de privacidad (texto pendiente de Protección de datos).</div>
+ </div>
+</section></div>
+
+<div class="servicios" id="servicios"><section>
+ <h2>Servicios y precios</h2>
+ <p class="lead">Lo primero es que conozcas cómo trabajamos. Contratas el servicio que necesitas, sin permanencia y con precio cerrado. Todos los precios son <b>+ IVA (impuestos no incluidos)</b>.</p>
+ <div class="estrategia">🧭<div><b>Primero servicios, después operaciones.</b> Empezamos por analizar contigo cada activo. Cuando ya trabajamos juntos, te presentamos operaciones estructuradas a medida.</div></div>
+ <div class="sgrid">
+  <div class="srv"><div class="ico">🏠</div><h3>Visita previa a la compra</h3><div class="pr">150 € <small>+ IVA</small></div><div class="iva">Impuestos no incluidos</div>
+   <ul><li>Para REO, NPL y subastas</li><li>Visita presencial al inmueble y a la zona</li><li>Estado exterior, accesos y entorno</li><li>Mediación previa a la compra</li><li>Informe de visita con fotos</li></ul><a class="btn navy" href="#contacto">Contratar visita</a></div>
+  <div class="srv"><div class="ico">⚖️</div><h3>Análisis jurídico</h3><div class="pr">150 € <small>+ IVA</small></div><div class="iva">Impuestos no incluidos</div>
+   <ul><li>Lo hace nuestro equipo jurídico</li><li>Cargas y situación registral</li><li>Expediente judicial o de subasta</li><li>Riesgos procesales y de ocupación</li><li>Conclusión clara: seguir o parar</li></ul><a class="btn navy" href="#contacto">Contratar análisis</a></div>
+  <div class="srv dest"><span class="tag">El más completo</span><div class="ico">📋</div><h3>Informe completo</h3><div class="pr">350 € <small>+ IVA</small></div><div class="iva">Visita + jurídico + económico · Impuestos no incluidos</div>
+   <ul><li>Valor de mercado con comparables</li><li>Deudas de comunidad y posibles derramas</li><li>Estado del edificio</li><li>Averiguaciones en el barrio</li><li>Posibles afecciones</li><li>Salida a la venta: plazo y precio</li></ul><a class="btn gold" href="#contacto">Pedir informe completo</a></div>
+  <div class="srv"><div class="ico">🤝</div><h3>Negociación con ocupantes</h3><div class="exito">A ÉXITO</div><div class="exito-sub">Honorarios solo si hay resultado</div><div class="pr">desde 3.500 € <small>+ IVA</small></div><div class="iva">Impuestos no incluidos</div>
+   <ul><li>Inquilinos morosos, okupas y antiguos propietarios</li><li>Toma de posesión pactada y documentada</li><li>Cerrajero e instalación de alarma</li></ul>
+   <div class="req2">Empezamos con la visita previa y el informe completo para estudiar tu caso.</div><a class="btn navy" href="#contacto">Consultar caso</a></div>
+ </div>
+ <div class="sgrid2">
+  <div class="srv mini"><div class="ico">📄</div><div class="txt"><h3>Demanda de precario</h3><p>Contra inquilino moroso, con mediación presencial incluida.</p></div><div class="pr">2.000 € <small>+ IVA</small></div></div>
+  <div class="srv mini"><div class="ico">🧹</div><div class="txt"><h3>Vaciado y limpieza</h3><p>Tras la toma de posesión. Te pasamos presupuesto cerrado.</p></div><div class="pr" style="font-size:16px">Bajo presupuesto</div></div>
+  <div class="srv mini"><div class="ico">🛠️</div><div class="txt"><h3>Reforma</h3><p>Valoración, presupuesto y gestión de la obra.</p></div><div class="pr" style="font-size:16px">Bajo presupuesto</div></div>
+ </div>
+ <p class="legal">Precios sin impuestos (IVA aparte). La retención de IRPF, si procede, se indicará en el presupuesto. Pendiente de confirmar por el Asesor fiscal. La parte jurídica la presta el equipo jurídico colaborador de Exoneris.</p>
+</section></div>
+
+<section id="mapa">
+ <h2>Activos analizados <span class="demo">Datos de ejemplo</span></h2>
+ <p class="lead">Subastas, REO y NPL en un solo mapa. Mostramos zonas aproximadas, nunca la dirección exacta. Cada ficha resume lo que está a favor, lo que preocupa y lo que falta comprobar. Cambia el nivel de acceso para ver qué se ve en cada uno.</p>
+ <div class="mapa-wrap">
+  <div class="panel">
+   <h4>Nivel de acceso (simulación)</h4>
+   <div class="niveles" id="niveles">
+    <button data-n="1" class="on"><b>1 · Público</b>Zona aproximada, tipo, rango de precio y descuento</button>
+    <button data-n="2"><b>2 · Inversor validado</b>Ficha completa sin dirección ni referencias</button>
+    <button data-n="3"><b>3 · Tras NDA o encargo</b>Documentación, expediente e informe de visita</button>
+   </div>
+   <h4>Tipo de activo</h4>
+   <label class="chk"><input type="checkbox" data-t="subasta" checked><span class="dot" style="background:var(--sub)"></span>Subastas BOE analizadas</label>
+   <label class="chk"><input type="checkbox" data-t="reo" checked><span class="dot" style="background:var(--reo)"></span>REO (incluye ocupados)</label>
+   <label class="chk"><input type="checkbox" data-t="npl" checked><span class="dot" style="background:var(--npl)"></span>NPL con dación o ejecución</label>
+   <h4>Provincia</h4>
+   <select id="fProv"><option value="">Todas</option></select>
+   <h4>Ocupación</h4>
+   <select id="fOcu"><option value="">Indiferente</option><option value="libre">Libre</option><option value="ocupado">Ocupado</option><option value="desconocida">Por comprobar</option></select>
+   <h4>Precio máximo: <span id="lPre">300.000 €</span></h4>
+   <input type="range" id="fPre" min="20000" max="300000" step="10000" value="300000">
+   <h4>Descuento mínimo: <span id="lDes">0 %</span></h4>
+   <input type="range" id="fDes" min="0" max="60" step="5" value="0">
+   <h4>Ordenar</h4>
+   <div style="font-size:12.5px;color:var(--mut)">Lista ordenada de mejor a peor según el score Exoneris (0-100).</div>
+  </div>
+  <div class="mapa">
+   <div class="capas" id="capas"><button class="on" data-c="mapa">Mapa</button><button data-c="sat">Satélite (zona)</button><button data-c="cat">Catastro (zona)</button></div>
+   <span class="demo">Datos de ejemplo</span>
+   <svg id="svg" viewBox="0 0 1000 820" preserveAspectRatio="xMidYMid meet"></svg>
+   <div class="ley"><div><span class="dot" style="background:var(--sub)"></span>Subasta</div><div><span class="dot" style="background:var(--reo)"></span>REO</div><div><span class="dot" style="background:var(--npl)"></span>NPL</div><small>Círculo = zona aproximada (500 m a 1 km). Las capas de satélite y Catastro se muestran solo a nivel de zona.</small></div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:12px;min-height:0">
+   <div class="ficha" id="ficha" style="flex:1"></div>
+  </div>
+ </div>
+ <div class="panel" style="margin-top:14px;max-height:none">
+  <h4>Lista: de mejor a peor <span class="demo">Datos de ejemplo</span></h4>
+  <div class="lista" id="lista" style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px"></div>
+ </div>
+</section>
+
+<section id="como" style="padding-top:10px">
+ <h2>Cómo trabajamos</h2>
+ <p class="lead">Del mapa al encargo en cinco pasos. La puja máxima o la oferta salen de la visita y del análisis, no de una calculadora.</p>
+ <div class="pasos">
+  <div class="paso"><b>1</b><h4>Eliges un activo</h4><p>En el mapa o en tus alertas, solo cuando hay coincidencia.</p></div>
+  <div class="paso"><b>2</b><h4>Eliges servicio</h4><p>Visita, análisis jurídico o informe completo.</p></div>
+  <div class="paso"><b>3</b><h4>Firmas NDA y encargo</h4><p>Desde aquí ves la documentación del activo.</p></div>
+  <div class="paso"><b>4</b><h4>Confirmas y pagas</h4><p>Te damos fecha de visita y te avisamos.</p></div>
+  <div class="paso"><b>5</b><h4>Recibes el informe</h4><p>A favor, preocupa, falta comprobar y nuestra recomendación.</p></div>
+ </div>
+</section>
+
+<section id="niveles" style="padding-top:10px">
+ <h2>Tres niveles de acceso</h2>
+ <p class="lead">Protegemos el activo y los datos de las personas. Nunca mostramos datos personales de deudores ni ocupantes en ninguna vista. Los campos de cada nivel los fija el Abogado (pendiente de su revisión RGPD).</p>
+ <table class="tniv">
+  <tr><th>Qué se ve</th><th>1 · Público</th><th>2 · Inversor validado</th><th>3 · Tras NDA o encargo</th></tr>
+  <tr><td>Zona aproximada en el mapa (círculo)</td><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+  <tr><td>Tipo, rango de precio y descuento</td><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+  <tr><td>Ficha: a favor / preocupa / falta comprobar</td><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+  <tr><td>Datos económicos y de riesgo completos</td><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+  <tr><td>Filtros guardados y alertas</td><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+  <tr><td>Dirección exacta, nº de expediente BOE, ref. catastral</td><td class="no">No</td><td class="no">No</td><td class="si">Sí</td></tr>
+  <tr><td>Documentación, informe jurídico y fotos de visita</td><td class="no">No</td><td class="no">No</td><td class="si">Sí</td></tr>
+  <tr><td>Datos personales de deudores u ocupantes</td><td class="no">Nunca</td><td class="no">Nunca</td><td class="no">Nunca en la web (solo en el expediente, con base legal)</td></tr>
+ </table>
+</section>
+
+<section id="area" style="padding-top:10px">
+ <h2>Mi área <span class="demo">Datos de ejemplo</span></h2>
+ <p class="lead">Lo que verá un inversor validado al entrar.</p>
+ <div class="area">
+  <div class="acard"><h4>⭐ Favoritos</h4><ul><li>REO · Villena (zona centro)<span class="score">82</span></li><li>Subasta · Elche (zona sur)<span class="score">77</span></li><li>NPL · Murcia (zona norte)<span class="score">71</span></li></ul></div>
+  <div class="acard"><h4>🔔 Alertas (solo si hay coincidencia)</h4><ul><li>Vivienda &lt; 90.000 € · Alicante<span class="est c">2 nuevas</span></li><li>NPL con dación · Valencia<span class="est c">0 nuevas</span></li><li>Subasta libre · Murcia<span class="est c">1 nueva</span></li></ul></div>
+  <div class="acard"><h4>🧾 Servicios contratados</h4><ul><li>Informe completo · REO Villena<span class="est b">Visita el jueves</span></li><li>Análisis jurídico · Subasta Elche<span class="est a">Entregado</span></li><li>Visita previa · NPL Murcia<span class="est c">Pendiente de NDA</span></li></ul></div>
+ </div>
+</section>
+
+<section id="contacto" style="padding-top:10px">
+ <div class="quien">
+  <div class="qbox"><h3>Quiénes somos</h3>
+   <p><b>Exoneris Consulting</b> está en Villena (Alicante). La dirige <b>Javier Núñez</b>, mediador y gestor de carteras de activos inmobiliarios: subastas, REO y créditos NPL.</p>
+   <p>Javier no es abogado: la parte jurídica la lleva el equipo jurídico de Exoneris. Contamos con proveedores de confianza para cerrajería, alarmas, vaciado y reforma.</p>
+   <p>Nuestro trabajo es contarte la verdad del activo antes de que pongas tu dinero: lo bueno, lo que preocupa y lo que todavía no se sabe.</p>
+  </div>
+  <div class="contacto"><h3>Habla con nosotros</h3>
+   <div class="linea">✉️ <b>inversiones@exonerisconsulting.es</b></div>
+   <div class="linea">📞 <b>650 11 00 76</b></div>
+   <p>Cuéntanos qué activo te interesa y qué servicio necesitas. Te respondemos con presupuesto cerrado (precios + IVA).</p>
+  </div>
+ </div>
+</section>
+
+<footer><section>
+ <div>© 2026 Exoneris Consulting · Villena (Alicante) · inversiones@exonerisconsulting.es · 650 11 00 76</div>
+ <div><a href="#">Aviso legal</a><a href="#">Privacidad</a><a href="#">Cookies</a><span>(textos pendientes de Abogado y Protección de datos)</span></div>
+</section></footer>
+
+<script>
+// ===== DATOS DE EJEMPLO (inventados; ninguna dirección real ni dato personal) =====
+const ACTIVOS = [
+ {id:"S-01",tipo:"subasta",zona:"Elche · zona sur",prov:"Alicante",lon:-0.70,lat:38.24,precio:61000,ref:118000,m2:84,habs:3,banos:1,anio:1979,ocu:"desconocida",score:77,
+  extra:{"Tipo y fase":"Judicial · pujas abiertas","Valor de subasta":"118.000 €","Tasación":"124.500 €","Mercado zona (€/m²)":"1.420 €/m²","Depósito (5 %)":"5.900 €","Cierre":"en 12 días","Cargas":"Por confirmar con nota simple"},
+  fav:["Precio de salida un 48 % por debajo del valor de zona","Calle con buena demanda de alquiler","Finca con ascensor"],pre:["Ocupación sin confirmar","Posible deuda de comunidad"],fal:["Nota simple actualizada","Visita exterior y vecinos","Deuda de comunidad e IBI"]},
+ {id:"S-02",tipo:"subasta",zona:"Murcia · pedanía norte",prov:"Murcia",lon:-1.13,lat:38.02,precio:47000,ref:92000,m2:96,habs:3,banos:2,anio:2004,ocu:"libre",score:72,
+  extra:{"Tipo y fase":"AEAT · pujas abiertas","Valor de subasta":"92.000 €","Tasación":"95.300 €","Mercado zona (€/m²)":"1.050 €/m²","Depósito (5 %)":"4.600 €","Cierre":"en 20 días","Cargas":"Hipoteca anterior posible"},
+  fav:["Vivienda reciente (2004)","Según el anuncio, está libre"],pre:["Puede haber una hipoteca anterior que subsiste"],fal:["Certificación de cargas","Estado interior"]},
+ {id:"S-03",tipo:"subasta",zona:"Albacete · zona centro",prov:"Albacete",lon:-1.86,lat:38.99,precio:83000,ref:131000,m2:110,habs:4,banos:2,anio:1988,ocu:"ocupado",score:58,
+  extra:{"Tipo y fase":"Judicial · pujas abiertas","Valor de subasta":"131.000 €","Tasación":"140.000 €","Mercado zona (€/m²)":"1.380 €/m²","Depósito (5 %)":"6.550 €","Cierre":"en 6 días","Cargas":"Sin cargas anteriores (según anuncio)"},
+  fav:["Zona céntrica con buena liquidez"],pre:["Inmueble ocupado: hará falta negociar la salida","Plazo de cierre corto"],fal:["Tipo de ocupación (sin datos personales)","Coste y plazo de la posesión"]},
+ {id:"S-04",tipo:"subasta",zona:"Sevilla · zona este",prov:"Sevilla",lon:-5.93,lat:37.39,precio:69000,ref:105000,m2:78,habs:3,banos:1,anio:1972,ocu:"libre",score:64,
+  extra:{"Tipo y fase":"Judicial · próxima apertura","Valor de subasta":"105.000 €","Tasación":"112.000 €","Mercado zona (€/m²)":"1.610 €/m²","Depósito (5 %)":"5.250 €","Cierre":"abre en 4 días","Cargas":"Por confirmar"},
+  fav:["Descuento sobre mercado de zona alto"],pre:["Edificio antiguo sin ascensor"],fal:["Posibles derramas por ITE"]},
+ {id:"R-01",tipo:"reo",zona:"Villena · zona centro",prov:"Alicante",lon:-0.865,lat:38.63,precio:58000,ref:89000,m2:92,habs:3,banos:1,anio:1985,ocu:"libre",score:82,
+  extra:{"Precio vs tasación":"58.000 € / 89.000 €","Descuento":"35 %","Vendedor":"Servicer bancario","Antigüedad del anuncio":"18 días","Estado":"Para reformar"},
+  fav:["Precio por debajo de los comparables","Libre y con llaves","Ciudad sin mucha oferta parecida"],pre:["Necesita reforma media"],fal:["Presupuesto de reforma","Deudas de comunidad"]},
+ {id:"R-02",tipo:"reo",zona:"Alicante · zona norte",prov:"Alicante",lon:-0.48,lat:38.36,precio:72000,ref:121000,m2:74,habs:2,banos:1,anio:1976,ocu:"ocupado",score:61,
+  extra:{"Precio vs tasación":"72.000 € / 121.000 €","Descuento":"40 %","Vendedor":"Servicer bancario","Antigüedad del anuncio":"64 días","Estado":"Sin posesión"},
+  fav:["Descuento del 40 %"],pre:["Ocupado, sin posesión","Lleva tiempo anunciado"],fal:["Situación de la ocupación (sin datos personales)","Plazo realista de la posesión"]},
+ {id:"R-03",tipo:"reo",zona:"Valencia · zona oeste",prov:"Valencia",lon:-0.41,lat:39.47,precio:98000,ref:142000,m2:81,habs:3,banos:1,anio:1968,ocu:"libre",score:74,
+  extra:{"Precio vs tasación":"98.000 € / 142.000 €","Descuento":"31 %","Vendedor":"Entidad financiera","Antigüedad del anuncio":"9 días","Estado":"Habitable"},
+  fav:["Mucha demanda de alquiler en la zona","Anuncio reciente"],pre:["Finca antigua"],fal:["Estado del edificio e ITE"]},
+ {id:"R-04",tipo:"reo",zona:"Málaga · zona interior",prov:"Málaga",lon:-4.52,lat:36.75,precio:115000,ref:158000,m2:88,habs:3,banos:2,anio:1999,ocu:"desconocida",score:66,
+  extra:{"Precio vs tasación":"115.000 € / 158.000 €","Descuento":"27 %","Vendedor":"Servicer bancario","Antigüedad del anuncio":"31 días","Estado":"Por comprobar"},
+  fav:["Mercado con mucha liquidez"],pre:["Ocupación sin confirmar"],fal:["Visita a la finca y a los vecinos"]},
+ {id:"R-05",tipo:"reo",zona:"Zaragoza · zona sur",prov:"Zaragoza",lon:-0.89,lat:41.63,precio:86000,ref:119000,m2:70,habs:2,banos:1,anio:1981,ocu:"libre",score:69,
+  extra:{"Precio vs tasación":"86.000 € / 119.000 €","Descuento":"28 %","Vendedor":"Entidad financiera","Antigüedad del anuncio":"22 días","Estado":"Habitable"},
+  fav:["Libre y habitable"],pre:["Descuento moderado"],fal:["Gastos de comunidad"]},
+ {id:"N-01",tipo:"npl",zona:"Murcia · zona norte",prov:"Murcia",lon:-1.15,lat:38.06,precio:52000,ref:110000,m2:102,habs:3,banos:2,anio:2006,ocu:"ocupado",score:71,
+  extra:{"Precio del crédito":"52.000 €","Deuda reclamada":"96.400 €","Valor de la garantía":"110.000 €","Fase procesal":"Demanda admitida","TIR estimada":"18 %","Plazo estimado":"14-20 meses"},
+  fav:["Precio del crédito al 54 % de la deuda","Garantía con buen valor de mercado"],pre:["Ocupado por el deudor","Riesgo de retracto (art. 1535 CC)"],fal:["Revisión del procedimiento","Cesión ante notario"],riesgos:["Plazos judiciales de 12 a 24 meses","Retracto de crédito litigioso (art. 1535 CC)","Cargas anteriores","Estado y ocupación","Liquidez a la salida"]},
+ {id:"N-02",tipo:"npl",zona:"Valencia · área metropolitana sur",prov:"Valencia",lon:-0.43,lat:39.33,precio:39000,ref:88000,m2:76,habs:2,banos:1,anio:1993,ocu:"desconocida",score:68,
+  extra:{"Precio del crédito":"39.000 €","Deuda reclamada":"71.200 €","Valor de la garantía":"88.000 €","Fase procesal":"Subasta pendiente","TIR estimada":"21 %","Plazo estimado":"10-16 meses"},
+  fav:["Fase avanzada: el plazo es más corto","Descuento alto sobre la garantía"],pre:["Ocupación sin confirmar"],fal:["Estado del procedimiento","Posibles cargas"],riesgos:["Plazos judiciales","Retracto (art. 1535 CC)","Cargas","Ocupación","Liquidez"]},
+ {id:"N-03",tipo:"npl",zona:"Madrid · zona sur",prov:"Madrid",lon:-3.72,lat:40.33,precio:112000,ref:198000,m2:85,habs:3,banos:1,anio:1978,ocu:"ocupado",score:63,
+  extra:{"Precio del crédito":"112.000 €","Deuda reclamada":"164.000 €","Valor de la garantía":"198.000 €","Fase procesal":"Ejecución hipotecaria iniciada","TIR estimada":"15 %","Plazo estimado":"18-24 meses"},
+  fav:["Mercado con mucha liquidez"],pre:["Plazo largo","Ocupado"],fal:["Revisión de la cesión","Valoración actualizada"],riesgos:["Plazos","Retracto (art. 1535 CC)","Cargas","Ocupación","Liquidez"]},
+ {id:"N-04",tipo:"npl",zona:"Barcelona · área metropolitana",prov:"Barcelona",lon:2.10,lat:41.45,precio:96000,ref:175000,m2:68,habs:2,banos:1,anio:1970,ocu:"desconocida",score:59,
+  extra:{"Precio del crédito":"96.000 €","Deuda reclamada":"138.000 €","Valor de la garantía":"175.000 €","Fase procesal":"Fase de alegaciones","TIR estimada":"13 %","Plazo estimado":"20-28 meses"},
+  fav:["Valor de la garantía alto"],pre:["Fase temprana: plazo largo","Normativa autonómica de vivienda"],fal:["Situación procesal","Ocupación"],riesgos:["Plazos","Retracto (art. 1535 CC)","Cargas","Ocupación","Liquidez"]},
+ {id:"N-05",tipo:"npl",zona:"Elda · zona centro",prov:"Alicante",lon:-0.79,lat:38.48,precio:28000,ref:64000,m2:90,habs:3,banos:1,anio:1983,ocu:"libre",score:75,
+  extra:{"Precio del crédito":"28.000 €","Deuda reclamada":"49.500 €","Valor de la garantía":"64.000 €","Fase procesal":"Dación en pago en negociación","TIR estimada":"24 %","Plazo estimado":"4-8 meses"},
+  fav:["Hay dación en pago en negociación","Ticket de entrada bajo"],pre:["Dación todavía no firmada"],fal:["Documentación de la dación","Cargas"],riesgos:["Que no se firme la dación","Cargas","Liquidez local"]}
+];
+const COL={subasta:"#d64545",reo:"#2f6fd6",npl:"#2e9e6a"};
+const NOM={subasta:"Subasta BOE",reo:"REO",npl:"NPL"};
+let nivel=1, sel=ACTIVOS[4].id, capa="mapa";
+const eur=n=>n.toLocaleString("es-ES")+" €";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const desc=a=>Math.round((1-a.precio/a.ref)*100);
+const rango=p=>{const lo=Math.floor(p/25000)*25000;return eur(lo)+" – "+eur(lo+25000)};
+// Contorno aproximado de la España peninsular (lon,lat)
+const ES=[[-9.3,43.0],[-8.9,43.35],[-8.2,43.65],[-7.0,43.56],[-5.8,43.62],[-4.5,43.42],[-3.5,43.47],[-2.0,43.33],[-1.78,43.37],[-1.4,43.05],[-0.7,42.85],[0.7,42.84],[1.45,42.6],[2.0,42.42],[3.17,42.43],[3.2,41.9],[2.4,41.45],[1.0,41.05],[0.7,40.7],[0.0,40.05],[-0.3,39.5],[0.2,38.8],[-0.5,38.3],[-0.75,37.8],[-1.3,37.56],[-1.65,37.35],[-2.1,36.73],[-3.0,36.75],[-4.4,36.7],[-5.0,36.45],[-5.6,36.0],[-6.0,36.3],[-6.35,36.8],[-6.9,37.15],[-7.4,37.2],[-7.5,37.6],[-7.0,38.0],[-7.3,38.45],[-7.0,38.9],[-7.5,39.6],[-6.9,40.25],[-6.8,41.0],[-6.2,41.6],[-6.6,41.95],[-7.9,41.86],[-8.2,42.1],[-8.9,41.88],[-8.85,42.5]];
+const PT=[[-8.9,41.88],[-8.2,42.1],[-7.9,41.86],[-6.6,41.95],[-6.2,41.6],[-6.8,41.0],[-6.9,40.25],[-7.5,39.6],[-7.0,38.9],[-7.3,38.45],[-7.0,38.0],[-7.5,37.6],[-7.4,37.2],[-8.0,37.0],[-8.9,37.0],[-8.8,37.9],[-9.5,38.8],[-9.0,39.6],[-8.7,40.7],[-8.8,41.5]];
+const BAL=[[2.35,39.6,0.42,0.22],[4.1,39.95,0.2,0.1],[1.4,38.98,0.15,0.1]];
+const P=(lon,lat)=>[(lon+9.8)*72,(44.2-lat)*94];
+const poly=pts=>pts.map(p=>P(p[0],p[1]).join(",")).join(" ");
+function filtros(){
+ const tipos=[...document.querySelectorAll("[data-t]")].filter(c=>c.checked).map(c=>c.dataset.t);
+ const pv=document.getElementById("fProv").value, oc=document.getElementById("fOcu").value;
+ const pm=+document.getElementById("fPre").value, dm=+document.getElementById("fDes").value;
+ return ACTIVOS.filter(a=>tipos.includes(a.tipo)&&(!pv||a.prov===pv)&&(!oc||a.ocu===oc)&&a.precio<=pm&&desc(a)>=dm).sort((a,b)=>b.score-a.score);
+}
+function pintarMapa(lst){
+ const svg=document.getElementById("svg");
+ const bg=capa==="sat"?"#1d2b22":capa==="cat"?"#1a2335":"#12223a";
+ const land=capa==="sat"?"#3d5a3a":capa==="cat"?"#2a3650":"#203556";
+ let s=`<defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#ffffff14" stroke-width="1"/></pattern>
+ <pattern id="sat" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#56794f"/><circle cx="10" cy="9" r="2.6" fill="#4a6a44"/></pattern></defs>
+ <rect width="1000" height="820" fill="${bg}"/>
+ <polygon points="${poly(PT)}" fill="#1a2840" stroke="#2f4466" stroke-width="1.5"/>
+ <polygon points="${poly(ES)}" fill="${land}" stroke="#6f8bb5" stroke-width="2"/>`;
+ if(capa==="sat") s+=`<polygon points="${poly(ES)}" fill="url(#sat)" opacity=".55"/>`;
+ if(capa==="cat") s+=`<polygon points="${poly(ES)}" fill="url(#grid)"/>`;
+ BAL.forEach(b=>{const [x,y]=P(b[0],b[1]);s+=`<ellipse cx="${x}" cy="${y}" rx="${b[2]*72}" ry="${b[3]*94}" fill="${land}" stroke="#6f8bb5" stroke-width="1.5"/>`});
+ s+=`<text x="270" y="770" fill="#7f93b3" font-size="16">Portugal</text><text x="620" y="790" fill="#7f93b3" font-size="16">Mar Mediterráneo</text><text x="120" y="60" fill="#7f93b3" font-size="16">Mar Cantábrico</text>`;
+ lst.forEach(a=>{const [x,y]=P(a.lon,a.lat);const on=a.id===sel;
+  s+=`<g class="zona${on?" sel":""}" data-id="${a.id}" style="opacity:${on?1:.85}">
+  <circle class="c" cx="${x}" cy="${y}" r="${on?26:20}" fill="${COL[a.tipo]}" fill-opacity=".28" stroke="${COL[a.tipo]}" stroke-width="2"/>
+  <circle cx="${x}" cy="${y}" r="5" fill="${COL[a.tipo]}"/>
+  ${on?`<text x="${x+30}" y="${y+5}" fill="#fff" font-size="15" font-weight="700" paint-order="stroke" stroke="#0f1b2d" stroke-width="4">${esc(a.zona)}</text>`:""}</g>`;});
+ svg.innerHTML=s;
+ svg.querySelectorAll(".zona").forEach(g=>g.onclick=()=>{sel=g.dataset.id;todo()});
+}
+function pintarLista(lst){
+ const el=document.getElementById("lista");
+ if(!lst.length){el.innerHTML='<div style="color:var(--mut)">No hay activos con esos filtros.</div>';return}
+ el.innerHTML=lst.map(a=>`<div class="it${a.id===sel?" sel":""}" data-id="${a.id}" style="border-left-color:${COL[a.tipo]}">
+  <div class="t1"><span>${NOM[a.tipo]} · ${esc(a.zona)}</span><span class="score">${a.score}</span></div>
+  <div class="t2">${nivel===1?rango(a.precio):eur(a.precio)} · −${desc(a)} % · ${a.m2} m²</div></div>`).join("");
+ el.querySelectorAll(".it").forEach(d=>d.onclick=()=>{sel=d.dataset.id;todo()});
+}
+function pintarFicha(){
+ const a=ACTIVOS.find(x=>x.id===sel), f=document.getElementById("ficha");
+ if(!a){f.innerHTML="";return}
+ const ocu={libre:"Libre",ocupado:"Ocupado",desconocida:"Por comprobar"}[a.ocu];
+ let h=`<div class="fhead" style="background:${COL[a.tipo]}"><div class="tp">${NOM[a.tipo]} · Datos de ejemplo</div><h3>${a.tipo==="npl"?"Crédito con garantía":"Vivienda"} · ${esc(a.zona)}</h3>
+ <div class="z">Zona aproximada · ${esc(a.prov)} · Ocupación: ${ocu}</div>
+ <div class="nums"><div><b>${nivel===1?rango(a.precio):eur(a.precio)}</b><span>${a.tipo==="npl"?"precio del crédito":"precio"}</span></div><div><b>−${desc(a)} %</b><span>${a.tipo==="npl"?"vs garantía":"vs valor de referencia"}</span></div><div><b>${a.score}</b><span>score Exoneris</span></div></div></div><div class="fbody">`;
+ if(nivel===1){
+  h+=`<div class="lock"><b>🔒 Ficha completa para inversores validados</b>Regístrate y Exoneris valida tu perfil para ver los tres bloques, los datos económicos y los riesgos.<br><br><a class="btn gold sm" href="#acceso">Solicitar acceso</a></div>`;
+ } else {
+  h+=`<div class="blk fav"><h5>✅ A favor</h5><ul>${a.fav.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
+  <div class="blk pre"><h5>⚠️ Preocupa</h5><ul>${a.pre.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
+  <div class="blk fal"><h5>🔎 Falta comprobar</h5><ul>${a.fal.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
+  <div class="dat"><div><span>Superficie</span><b>${a.m2} m²</b></div><div><span>Hab. / baños</span><b>${a.habs} / ${a.banos}</b></div><div><span>Año</span><b>${a.anio}</b></div><div><span>€/m²</span><b>${eur(Math.round(a.precio/a.m2))}</b></div>
+  ${Object.entries(a.extra).map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join("")}</div>`;
+  if(a.riesgos) h+=`<div class="blk pre"><h5>Riesgos NPL</h5><ul>${a.riesgos.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  if(nivel===2) h+=`<div class="lock"><b>🔒 Dirección y documentación tras NDA o encargo</b>La dirección exacta, el nº de expediente, la referencia catastral y las fotos de la visita se ven al firmar el NDA o contratar un servicio.</div>`;
+  else h+=`<div class="blk fal"><h5>📁 Documentación (tras NDA)</h5><ul><li>Dirección exacta: <i>se muestra aquí tras el NDA (oculta en la maqueta)</i></li><li>Nota simple y certificación de cargas</li><li>Informe jurídico del equipo de Exoneris</li><li>Fotos e informe de la visita</li></ul></div>`;
+ }
+ h+=`<div class="fctas"><a class="btn navy" href="#servicios">Contratar visita · 150 € + IVA</a><a class="btn" href="#servicios">Análisis jurídico · 150 € + IVA</a><a class="btn gold" href="#servicios">Informe completo · 350 € + IVA</a></div>
+ <div class="rgpd">No mostramos datos personales de deudores ni ocupantes. ¿Ves un dato mal? <u>Avísanos</u> y lo revisa una persona.</div></div>`;
+ f.innerHTML=h;
+}
+function todo(){const l=filtros();if(l.length&&!l.find(a=>a.id===sel))sel=l[0].id;pintarMapa(l);pintarLista(l);pintarFicha()}
+// controles
+const provs=[...new Set(ACTIVOS.map(a=>a.prov))].sort();
+document.getElementById("fProv").innerHTML+=provs.map(p=>`<option>${p}</option>`).join("");
+document.querySelectorAll("[data-t],#fProv,#fOcu").forEach(e=>e.onchange=todo);
+document.getElementById("fPre").oninput=e=>{document.getElementById("lPre").textContent=eur(+e.target.value);todo()};
+document.getElementById("fDes").oninput=e=>{document.getElementById("lDes").textContent=e.target.value+" %";todo()};
+document.querySelectorAll("#niveles button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#niveles button").forEach(x=>x.classList.remove("on"));b.classList.add("on");nivel=+b.dataset.n;todo()});
+document.querySelectorAll("#capas button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#capas button").forEach(x=>x.classList.remove("on"));b.classList.add("on");capa=b.dataset.c;todo()});
+// nivel inicial por hash (para capturas): #n2 o #n3
+const m=location.hash.match(/n([123])/); if(m){nivel=+m[1];document.querySelectorAll("#niveles button").forEach(x=>x.classList.toggle("on",+x.dataset.n===nivel))}
+todo();
+</script>
+</body>
+</html>

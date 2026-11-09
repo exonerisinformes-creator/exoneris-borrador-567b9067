@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16303f"/><stop offset="1" stop-color="#0d1f2a"/>
+    </linearGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect width="1200" height="750" fill="url(#p)"/>
+  <g fill="none" stroke="#b08d57" stroke-width="3" opacity=".9">
+    <rect x="470" y="210" width="260" height="300"/>
+    <path d="M470 210 L600 130 L730 210"/>
+    <g stroke-width="2"><rect x="505" y="250" width="50" height="50"/><rect x="645" y="250" width="50" height="50"/><rect x="505" y="340" width="50" height="50"/><rect x="645" y="340" width="50" height="50"/><rect x="575" y="430" width="50" height="80"/></g>
+  </g>
+  <text x="600" y="600" text-anchor="middle" font-family="Lora, Georgia, serif" font-size="46" fill="#f4efe6">Elche · Carrús</text>
+  <text x="600" y="650" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="4" fill="#b08d57">FOTOS DISPONIBLES BAJO PETICIÓN</text>
+</svg>

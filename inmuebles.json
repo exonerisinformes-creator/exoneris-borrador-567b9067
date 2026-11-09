@@ -1,0 +1,58 @@
+{
+  "actualizado": "2026-11-03",
+  "inmuebles": [
+    {
+      "ref": "REF-001",
+      "publicado": true,
+      "tipo": "Piso",
+      "municipio": "Elche",
+      "zona": "Carrús",
+      "provincia": "Alicante",
+      "m2": 72,
+      "habitaciones": 3,
+      "banos": 1,
+      "planta": "Sin ascensor",
+      "anio": 1967,
+      "estado": "A reformar",
+      "precio_compra": 43000,
+      "valoracion": 65000,
+      "valoracion_nota": "Valoración propia por comparables de la zona en el mismo estado (a reformar), con ajuste prudente de oferta a cierre.",
+      "resumen": "Piso de tres habitaciones en el barrio de Carrús, en Elche. Para reformar.",
+      "fotos": [
+        "assets/img/inmuebles/REF-001/portada.svg"
+      ],
+      "fecha_revision": "2026-11-03"
+    },
+    {
+      "ref": "REF-002",
+      "publicado": true,
+      "tipo": "Piso",
+      "municipio": "Benijófar",
+      "zona": "Vega Baja",
+      "provincia": "Alicante",
+      "m2": 85,
+      "habitaciones": 2,
+      "banos": 1,
+      "planta": "1.ª planta, sin ascensor",
+      "anio": null,
+      "estado": "Buen estado",
+      "precio_compra": 79900,
+      "valoracion": 90000,
+      "valoracion_nota": "Valoración propia por comparables de segunda mano en buen estado en Benijófar y municipios colindantes, con ajuste prudente de oferta a cierre.",
+      "resumen": "Piso amplio de dos habitaciones en el casco de Benijófar. Cocina exterior y patio de luces. Sin gastos de comunidad.",
+      "fotos": [
+        "assets/img/inmuebles/REF-002/01.jpg",
+        "assets/img/inmuebles/REF-002/02.jpg",
+        "assets/img/inmuebles/REF-002/03.jpg",
+        "assets/img/inmuebles/REF-002/04.jpg",
+        "assets/img/inmuebles/REF-002/05.jpg",
+        "assets/img/inmuebles/REF-002/06.jpg",
+        "assets/img/inmuebles/REF-002/07.jpg",
+        "assets/img/inmuebles/REF-002/08.jpg",
+        "assets/img/inmuebles/REF-002/09.jpg",
+        "assets/img/inmuebles/REF-002/10.jpg"
+      ],
+      "fecha_revision": "2026-11-03"
+    }
+  ]
+}
