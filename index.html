@@ -4,74 +4,129 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Exoneris Consulting · Subastas, NPL, REO e inmuebles ocupados en Alicante, Valencia y Murcia</title>
-<meta name="description" content="Consultora de inversión inmobiliaria en Villena. Analizamos subastas judiciales, NPL, REO e inmuebles ocupados en Alicante, Valencia y Murcia.">
+<meta name="description" content="Consultora de inversión inmobiliaria en Villena. Analizamos subastas judiciales, NPL, REO e inmuebles ocupados en Alicante, Valencia y Murcia. Vamos al inmueble y negociamos con los ocupantes.">
 <meta name="robots" content="noindex,nofollow"><!-- BORRADOR: quitar al publicar -->
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" type="image/webp" href="assets/img/ciudad/hero-alicante-sm.webp" imagesrcset="assets/img/ciudad/hero-alicante-sm.webp 1280w, assets/img/ciudad/hero-alicante.webp 2400w" imagesizes="100vw">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="home">
 <div class="draft-bar">BORRADOR · versión de revisión, no publicada</div>
 <header class="site-header"><div class="wrap">
-  <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt=""><span class="name">EXONERIS<small>Consulting</small></span></a>
+  <a class="brand" href="index.html">
+    <img class="logo-on-light" src="assets/img/logo.svg" alt="">
+    <img class="logo-on-dark" src="assets/img/logo-light.svg" alt="">
+    <span class="name">EXONERIS<small>Consulting</small></span>
+  </a>
   <button class="menu-toggle" aria-label="Menú" aria-expanded="false">☰</button>
   <nav class="nav"><a href="index.html" class="active">Inicio</a><a href="inmuebles.html">Inmuebles</a><a href="servicios.html">Propietarios y servicers</a><a href="index.html#contacto">Contacto</a></nav>
 </div></header>
 <main>
 
-<section class="home-hero">
-  <div class="wrap home-hero-grid">
-    <div class="home-hero-copy">
-      <p class="home-kicker">Consultora de inversión inmobiliaria en Villena</p>
-      <h1>Analizamos cada subasta antes de decidir la puja.</h1>
-      <p class="home-line">No vendemos oportunidades. Las analizamos.</p>
-      <p class="lead">Subastas judiciales, NPL, REO e inmuebles ocupados en Alicante, Valencia y Murcia. Cada inmueble que publicamos lleva detrás un análisis propio: precio, cargas, situación y valor real por comparables.</p>
-      <div class="actions">
-        <a class="btn btn-gold" href="inmuebles.html">Ver inmuebles</a>
-        <a class="btn btn-outline" href="#contacto">Contactar</a>
-      </div>
+<section class="photo-hero">
+  <div class="photo-hero-media">
+    <picture>
+      <source type="image/webp" srcset="assets/img/ciudad/hero-alicante-sm.webp 1280w, assets/img/ciudad/hero-alicante.webp 2400w" sizes="100vw">
+      <img src="assets/img/ciudad/hero-alicante.jpg" srcset="assets/img/ciudad/hero-alicante-sm.jpg 1280w, assets/img/ciudad/hero-alicante.jpg 2400w" sizes="100vw" alt="Alicante al atardecer, con el casco urbano y el puerto iluminados" width="2400" height="1587" fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+  <div class="photo-hero-wash" aria-hidden="true"></div>
+  <div class="wrap photo-hero-copy">
+    <p class="home-kicker">Alicante, Valencia y Murcia · desde Villena</p>
+    <h1>Analizamos subastas, NPL y REO sobre el terreno.</h1>
+    <p class="home-line">No vendemos oportunidades. Las analizamos.</p>
+    <p class="lead">Consultora de inversión inmobiliaria. Visitamos el inmueble, comprobamos quién vive dentro y negociamos con los ocupantes. Trabajamos con inversores, fondos y servicers.</p>
+    <div class="actions">
+      <a class="btn btn-light" href="inmuebles.html">Ver inmuebles</a>
+      <a class="btn btn-ghost" href="#contacto">Contactar</a>
     </div>
-    <figure class="home-hero-media">
-      <video autoplay muted loop playsinline preload="metadata" poster="assets/video/analisis-subasta.jpg" aria-label="Grabación del proceso de búsqueda en el portal de subastas del BOE y de un informe de análisis.">
-        <source src="assets/video/analisis-subasta.webm" type="video/webm">
-        <source src="assets/video/analisis-subasta.mp4" type="video/mp4">
-      </video>
-      <figcaption>Grabación real: búsqueda de viviendas en subasta en Alicante, en el Portal de Subastas del BOE, y un ejemplo de informe posterior (cargas, comparables y puja máxima). Los datos personales del deudor se ocultan.</figcaption>
-    </figure>
   </div>
 </section>
 
-<section><div class="wrap">
-  <div class="section-head"><p class="section-label">Qué hacemos</p><h2>Cuatro mercados. Un mismo método.</h2>
-  <p class="muted">Trabajamos donde el precio de compra se separa del valor real. Ahí hace falta análisis, no intuición.</p></div>
-  <div class="grid-4">
-    <div class="card"><span class="num">01</span><h3>Subastas judiciales</h3><p>Lectura del expediente, cargas, posesión y valor real antes de decidir la puja.</p></div>
-    <div class="card"><span class="num">02</span><h3>NPL</h3><p>Préstamos dudosos con garantía hipotecaria. Deuda, procedimiento y salida.</p></div>
-    <div class="card"><span class="num">03</span><h3>REO</h3><p>Inmuebles adjudicados por bancos y fondos. Precio frente a mercado, sin adornos.</p></div>
-    <div class="card"><span class="num">04</span><h3>Inmuebles ocupados</h3><p>Situación jurídica, plazos y coste realista de recuperar la posesión.</p></div>
+<section class="mercados" id="mercados"><div class="wrap">
+  <div class="section-head">
+    <p class="section-label">Tres mercados</p>
+    <h2>Subastas, NPL y REO. El mismo criterio en los tres.</h2>
+    <p class="muted">El precio de compra se separa del valor real. Ahí hace falta análisis, visita y, cuando toca, negociación.</p>
+  </div>
+  <div class="markets">
+    <article class="market market-subastas">
+      <h3>Subastas judiciales</h3>
+      <p>Leemos el expediente, las cargas y la posesión, y valoramos el inmueble con comparables de la zona. Antes de decidir la puja, vamos a verlo.</p>
+    </article>
+    <article class="market market-npl">
+      <h3>NPL</h3>
+      <p>Préstamos dudosos con garantía hipotecaria. Revisamos la deuda, el procedimiento y la salida posible: acuerdo, dación o ejecución, con números realistas.</p>
+    </article>
+    <article class="market market-reo">
+      <h3>REO</h3>
+      <p>Inmuebles adjudicados por bancos y fondos. Comparamos el precio con el mercado, visitamos el activo y lo gestionamos hasta que se puede vender o desocupar.</p>
+    </article>
   </div>
 </div></section>
 
-<section class="alt"><div class="wrap">
+<section class="terreno" id="terreno">
+  <div class="wrap terreno-grid">
+    <figure class="terreno-media">
+      <picture>
+        <source type="image/webp" srcset="assets/img/ciudad/terreno-alicante.webp">
+        <img src="assets/img/ciudad/terreno-alicante.jpg" alt="Calle de Alicante con el Castillo de Santa Bárbara al fondo" width="1400" height="2100" decoding="async">
+      </picture>
+    </figure>
+    <div class="terreno-copy">
+      <p class="section-label">Sobre el terreno</p>
+      <h2>No nos quedamos en el escritorio.</h2>
+      <p class="muted">El expediente cuenta una parte. La otra se ve en el portal, en el rellano y hablando con quien vive dentro. Eso es lo que nos distingue de un análisis solo de mesa o de un programa.</p>
+      <ul class="terreno-list">
+        <li><strong>Visitas al inmueble</strong><span>Estado, entorno y lo que no aparece en el anuncio ni en el edicto.</span></li>
+        <li><strong>Mediación y negociación con ocupantes</strong><span>Contacto directo y discreto. Acuerdos de salida razonables, cuando es posible.</span></li>
+        <li><strong>Desocupación y control de accesos</strong><span>Gestionamos la recuperación de la posesión y el control de quién entra y quién sale.</span></li>
+        <li><strong>Fondos, servicers e inversores</strong><span>Un interlocutor en zona para carteras y operaciones puntuales en el Levante.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="metodo-video" id="metodo"><div class="wrap metodo-video-grid">
+  <div>
+    <p class="section-label">Cómo analizamos</p>
+    <h2>Así se busca y se estudia una subasta.</h2>
+    <p class="muted">Grabación real: búsqueda de viviendas en Alicante en el Portal de Subastas del BOE y un ejemplo de informe posterior, con cargas, comparables y puja máxima. Los datos personales del deudor se ocultan.</p>
+  </div>
+  <figure class="metodo-video-media">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/video/analisis-subasta.jpg" aria-label="Grabación del proceso de búsqueda en el portal de subastas del BOE y de un informe de análisis.">
+      <source src="assets/video/analisis-subasta.webm" type="video/webm">
+      <source src="assets/video/analisis-subasta.mp4" type="video/mp4">
+    </video>
+  </figure>
+</div></section>
+
+<section class="alt" id="inmuebles"><div class="wrap">
   <div class="section-head"><p class="section-label">Inmuebles</p><h2>Últimos inmuebles analizados</h2>
   <p class="muted">Precio de compra frente a nuestra valoración. Solo publicamos cuando el análisis está cerrado.</p></div>
   <div class="props" id="destacados"><div class="empty">Cargando…</div></div>
   <p style="margin-top:30px"><a class="btn btn-navy" href="inmuebles.html">Ver todos los inmuebles</a></p>
 </div></section>
 
-<section><div class="wrap">
-  <div class="section-head"><p class="section-label">Método</p><h2>Cómo analizamos un inmueble</h2></div>
-  <ol class="steps">
-    <li><strong>Documentación</strong><span>Expediente, registro, catastro y situación del inmueble.</span></li>
-    <li><strong>Valor real</strong><span>Comparables de la misma zona y en un estado parecido. Reforma descontada.</span></li>
-    <li><strong>Números completos</strong><span>Precio, impuestos, cargas, reforma y plazos. Si no salen, lo decimos.</span></li>
-  </ol>
-</div></section>
-
-<section class="alt"><div class="wrap zona">
-  <div><p class="section-label">Zona</p><h2>Levante, desde Villena.</h2>
-  <p class="muted">Conocemos el terreno. Trabajamos en tres provincias, sobre el terreno.</p></div>
-  <ul><li>Alicante <span>Base en Villena</span></li><li>Valencia <span>Provincia</span></li><li>Murcia <span>Región</span></li></ul>
-</div></section>
+<section class="zona-foto" id="zona">
+  <div class="zona-foto-media" aria-hidden="true">
+    <picture>
+      <source type="image/webp" srcset="assets/img/ciudad/costa-alicante-sm.webp 1280w, assets/img/ciudad/costa-alicante.webp 2400w" sizes="100vw">
+      <img src="assets/img/ciudad/costa-alicante.jpg" srcset="assets/img/ciudad/costa-alicante-sm.jpg 1280w, assets/img/ciudad/costa-alicante.jpg 2400w" sizes="100vw" alt="Litoral de Alicante con el Castillo de Santa Bárbara" width="2400" height="1600" decoding="async">
+    </picture>
+  </div>
+  <div class="zona-foto-wash" aria-hidden="true"></div>
+  <div class="wrap zona-foto-copy">
+    <p class="section-label">Zona</p>
+    <h2>Levante, desde Villena.</h2>
+    <p>Conocemos el terreno porque lo pisamos. Trabajamos en tres provincias.</p>
+    <ul>
+      <li>Alicante <span>Base en Villena</span></li>
+      <li>Valencia <span>Provincia</span></li>
+      <li>Murcia <span>Región</span></li>
+    </ul>
+  </div>
+</section>
 
 <section><div class="wrap grid-2" style="align-items:center">
   <div><p class="section-label">Propietarios y servicers</p><h2>¿Tienes una cartera o un inmueble con problemas?</h2>
