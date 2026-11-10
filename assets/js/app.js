@@ -30,6 +30,15 @@
       "&body=" + encodeURIComponent("Hola, me interesa el inmueble " + ref + ". Mi nombre y teléfono son: ");
   }
   function lugar(p) { return p.municipio + (p.zona ? " · " + p.zona : ""); }
+  function lugarProv(p) {
+    return p.municipio + (p.provincia ? ", " + p.provincia : "");
+  }
+  function tipoEtiqueta(p) {
+    return p.mercado || p.tipo || "";
+  }
+  function portada(p) {
+    return p.foto_portada || (p.fotos && p.fotos[0]) || "";
+  }
 
   function tarjeta(p) {
     var d = descuento(p);
@@ -40,12 +49,15 @@
     var val = p.valoracion
       ? '<div class="val">Valoración<strong>' + eur(p.valoracion) + "</strong></div>"
       : '<div class="val">Valoración<strong style="font-size:1rem">En análisis</strong></div>';
+    var img = portada(p);
+    var alt = (tipoEtiqueta(p) || "Inmueble") + " en " + lugarProv(p);
     return '<a class="prop" href="inmueble.html?ref=' + encodeURIComponent(p.ref) + '">' +
-      '<div class="ph"><img loading="lazy" src="' + esc(p.fotos[0]) + '" alt="' + esc(p.tipo + " en " + p.municipio) + '">' +
+      '<div class="ph"><img loading="lazy" src="' + esc(img) + '" alt="' + esc(alt) + '">' +
       '<span class="badge">' + esc(p.ref) + "</span>" +
       (d ? '<span class="badge disc">−' + d + " %</span>" : "") + "</div>" +
-      '<div class="body"><span class="loc">' + esc(lugar(p)) + "</span>" +
-      "<h3>" + esc(p.tipo) + " en " + esc(p.municipio) + "</h3>" +
+      '<div class="body"><span class="tipo">' + esc(tipoEtiqueta(p)) + "</span>" +
+      "<h3>" + esc(lugarProv(p)) + "</h3>" +
+      (p.zona ? '<span class="loc">' + esc(p.zona) + "</span>" : "") +
       '<div class="specs">' + specs.map(function (s) { return "<span>" + esc(s) + "</span>"; }).join("") + "</div>" +
       '<div class="prices"><div>Precio de compra<strong>' + eur(p.precio_compra) + "</strong></div>" + val + "</div>" +
       '<span class="more">Ver ficha →</span></div></a>';
@@ -88,10 +100,12 @@
       (p.valoracion ? '<div class="row val"><span>Valoración</span><strong>' + eur(p.valoracion) + "</strong></div>" : "") +
       (d ? '<div class="row disc"><span>Por debajo de la valoración</span><strong>' + d + " %</strong></div>" : "") + "</div>";
     ficha.innerHTML =
-      '<div class="gallery"><div class="main"><img id="foto-main" src="' + esc(p.fotos[0]) + '" alt="' + esc(p.tipo + " en " + p.municipio) + '"></div>' + thumbs +
+      '<div class="gallery"><div class="main"><img id="foto-main" src="' + esc(p.fotos[0]) + '" alt="' + esc(tipoEtiqueta(p) + " en " + lugarProv(p)) + '"></div>' + thumbs +
+      (p.foto_nota ? '<p class="foto-nota">' + esc(p.foto_nota) + "</p>" : "") +
       (p.resumen ? '<p style="margin-top:26px;font-size:1.05rem">' + esc(p.resumen) + "</p>" : "") + "</div>" +
-      '<aside class="panel"><span class="ref">' + esc(p.ref) + '</span><h1 style="font-size:1.9rem;margin-top:.3em">' + esc(p.tipo) + " en " + esc(p.municipio) + "</h1>" +
-      '<span class="muted">' + esc(lugar(p)) + " (" + esc(p.provincia) + ")</span>" + comp +
+      '<aside class="panel"><span class="ref">' + esc(p.ref) + '</span><span class="tipo">' + esc(tipoEtiqueta(p)) + "</span>" +
+      '<h1 style="font-size:1.9rem;margin-top:.15em">' + esc(lugarProv(p)) + "</h1>" +
+      (p.zona ? '<span class="muted">' + esc(p.zona) + "</span>" : "") + comp +
       '<dl class="dl">' + dl + "</dl>" +
       '<div class="cta-box"><p>Si quieres saber más sobre este inmueble, escribe <strong>ME INTERESA</strong> y te paso mi contacto.</p>' +
       '<a class="btn btn-wa" href="' + waLink(p.ref) + '" target="_blank" rel="noopener">' + WA_ICON + " ME INTERESA</a>" +

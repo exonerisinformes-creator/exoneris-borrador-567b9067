@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03",
+  "actualizado": "2026-11-10",
   "inmuebles": [
     {
       "ref": "REF-001",
@@ -19,9 +19,13 @@
       "valoracion_nota": "Valoración propia por comparables de la zona en el mismo estado (a reformar), con ajuste prudente de oferta a cierre.",
       "resumen": "Piso de tres habitaciones en el barrio de Carrús, en Elche. Para reformar.",
       "fotos": [
-        "assets/img/inmuebles/REF-001/portada.svg"
+        "assets/img/inmuebles/REF-001/catastro.webp"
       ],
-      "fecha_revision": "2026-11-03"
+      "fecha_revision": "2026-11-03",
+      "foto_portada": "assets/img/inmuebles/REF-001/catastro.webp",
+      "lat": 38.2726724463566,
+      "lng": -0.709511952883153,
+      "foto_nota": "Ortofoto PNOA (IGN) con cartografía catastral. Centrada en Calle Diagonal, Carrús (Elche), según las coordenadas del anuncio público. No disponemos de la referencia catastral, así que no se marca una parcela concreta."
     },
     {
       "ref": "REF-002",
@@ -41,6 +45,7 @@
       "valoracion_nota": "Valoración propia por comparables de segunda mano en buen estado en Benijófar y municipios colindantes, con ajuste prudente de oferta a cierre.",
       "resumen": "Piso amplio de dos habitaciones en el casco de Benijófar. Cocina exterior y patio de luces. Sin gastos de comunidad.",
       "fotos": [
+        "assets/img/inmuebles/REF-002/catastro.webp",
         "assets/img/inmuebles/REF-002/01.jpg",
         "assets/img/inmuebles/REF-002/02.jpg",
         "assets/img/inmuebles/REF-002/03.jpg",
@@ -52,7 +57,11 @@
         "assets/img/inmuebles/REF-002/09.jpg",
         "assets/img/inmuebles/REF-002/10.jpg"
       ],
-      "fecha_revision": "2026-11-03"
+      "fecha_revision": "2026-11-03",
+      "foto_portada": "assets/img/inmuebles/REF-002/catastro.webp",
+      "lat": 38.07858329792273,
+      "lng": -0.735664234338816,
+      "foto_nota": "Ortofoto PNOA (IGN) con cartografía catastral. Centrada en el casco de Benijófar, según las coordenadas aproximadas del anuncio público. No disponemos de la referencia catastral, así que no se marca una parcela concreta."
     }
   ]
 }
